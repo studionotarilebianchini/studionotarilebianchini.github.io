@@ -1,0 +1,227 @@
+
+$font-size: 1vw
+$line-height: 1.8vw
+$dark-text: #444
+
+@import url("webfonts/FuturaBT_Light/stylesheet.css")
+
+
+body
+  margin: 0
+
+p 
+  font-family: Palatino
+  text-align: center
+  font-size: $font-size
+  margin: 0
+  line-height: $line-height
+  color: $dark-text
+
+h1
+  font-family: "FuturaBT Light"
+  font-weight: 100
+  text-align: center
+  font-size: $font-size * 2.5
+  margin: 0
+  letter-spacing: $font-size / 10
+  color: $dark-text
+
+h2
+  font-family: "FuturaBT Light"
+  font-weight: 100
+  font-size: $font-size * 1.6
+  margin: 0
+  letter-spacing: $font-size / 10
+  color: $dark-text
+
+label
+  font-family: "FuturaBT Light"
+  font-size: $font-size
+  color: white
+
+input
+  background-color: rgba(255, 255, 255, 0.4)
+  border: 0
+  width: 100%
+  padding: 5px 
+  margin: $font-size * 0.4 0 $font-size * 0.6 0
+  color: white
+  font-size: $font-size
+  font-family: Palatino
+
+textarea
+  background-color: rgba(255, 255, 255, 0.4)
+  border: 0
+  width: 100%
+  padding: 5px 
+  height: 100px
+  margin: 1vw 0 1vw 0
+  color: white
+  font-size: $font-size
+  font-family: Palatino
+
+.invia
+  width: auto
+  padding: 5px 
+  font-size: $font-size
+  letter-spacing: $font-size / 10
+  font-family: "FuturaBT Light"
+
+.scroll
+  display: flex
+  width: 3vw
+  border-bottom: solid red 2px
+  height: 3vw
+  transform: rotate(45deg)
+  border-right: solid red 2px
+
+.separator
+  height: 0px
+  width: 2vw
+  border: solid red 2px
+  margin: 2vw 0 
+
+.separator-2
+  width: 100%
+  height: 0
+  border: solid 1px white
+  margin: 1vw 0 1vw 0
+
+
+.hero
+  background-image: url('Hero.jpg')
+  background-size: fit
+  height: 100vh
+  display: flex
+  align-items: center
+  justify-content: center
+  flex-flow: column
+
+.logo
+  width: 40vw
+  max-width: 40vw
+  display: flex
+  margin-bottom: 3vw
+
+.scheda
+  height: 70vh
+  display: flex
+  align-items: center
+  justify-content: center
+  flex-flow: column
+
+.scheda1
+  background-color: #f2f2f2
+
+.scheda2
+  background-color: #ccc
+
+.container-nome
+
+.staff
+  font-style: italic
+  font-size: $font-size * 0.8
+
+.nome
+  font-size: $font-size
+  margin: 0 0 1vw 0
+
+.footer
+  height: 100vh
+  background-color: #666
+  background-image: url('assets/contatti.jpg')
+  background-repepat: no-repeat 
+  background-size: fit
+  color: white!important
+  display: flex
+  text-align: left
+  flex-wrap: wrap
+
+.footer p
+  text-align:  left
+  margin-bottom: $font-size
+  color: white
+
+.footer h1
+  color: white
+
+.footer h2
+  color: white
+
+.container
+  display: flex
+  flex-wrap: wrap
+  width: 100%
+
+#row-footer-1
+  padding-top: 3vw 
+
+#row-footer-2
+  margin: 3vw 0
+  width: 100%
+
+
+
+.col
+  width: 31.2%
+  display: inline-flex
+  flex-flow: column
+  padding: 0 1vw 0 1vw
+
+.subfooter
+  display: flex
+  justify-content: center
+  width: 100%
+  text-align: center
+  bottom: 3vw
+  align-self: flex-end
+  background-color: rgba(255, 255, 255, 0.4)
+  width: 100vw
+  margin-bottom: 1.5vw
+
+.subfooter p
+  margin: 0!important
+
+.padding
+  padding: 0 3vw
+
+.red
+  color: red
+
+@media only screen and (max-width: 1024px) 
+
+p 
+  font-size: $font-size-tablet
+  line-height: $line-height
+  color: $dark-text
+
+h1
+  font-size: $font-size-tablet * 2.5
+  letter-spacing: $font-size / 10
+
+h2
+
+  font-size: $font-size * 1.6
+  letter-spacing: $font-size / 10
+
+label
+  font-size: $font-size
+
+input
+  margin: $font-size * 0.4 0 $font-size * 0.6 0
+  font-size: $font-size
+
+textarea
+  font-size: $font-size
+
+.invia
+  font-size: $font-size
+  letter-spacing: $font-size / 10
+
+@media only screen and (max-width: 768px) 
+
+
+
+
+
+
